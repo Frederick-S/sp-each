@@ -3,7 +3,7 @@ forEach function for SharePoint object collection.
 
 ## Installation
 ```
-npm install sp-each
+npm install sp-each --save
 ```
 
 ## Usage
