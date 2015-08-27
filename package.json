@@ -1,6 +1,6 @@
 {
   "name": "sp-each",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "forEach function for SharePoint object collection.",
   "main": "index.js",
   "scripts": {
