@@ -1,6 +1,6 @@
 {
   "name": "sp-each",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "forEach function for SharePoint object collection.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Frederick-S/spEach.git"
+    "url": "https://github.com/Frederick-S/sp-each.git"
   },
   "keywords": [
     "SharePoint"
@@ -16,7 +16,7 @@
   "author": "Frederick-S",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Frederick-S/spEach/issues"
+    "url": "https://github.com/Frederick-S/sp-each/issues"
   },
-  "homepage": "https://github.com/Frederick-S/spEach"
+  "homepage": "https://github.com/Frederick-S/sp-each"
 }
