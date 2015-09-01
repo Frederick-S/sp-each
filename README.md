@@ -1,5 +1,5 @@
-# spEach
-forEach function for SharePoint object collection.
+# sp-each
+Each function for SharePoint object collection.
 
 ## Installation
 ```
