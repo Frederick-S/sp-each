@@ -1,7 +1,7 @@
 {
   "name": "sp-each",
-  "version": "0.0.4",
-  "description": "forEach function for SharePoint object collection.",
+  "version": "0.0.5",
+  "description": "Each function for SharePoint object collection.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
