@@ -8,9 +8,9 @@ npm install sp-each --save
 
 ## Usage
 ```js
-var spEach = require('sp-each');
+var each = require('sp-each');
 
-spEach(webs, function (current, index, collection) {
+each(webs, function (current, index, collection) {
     console.log(current.get_title());
 });
 ```
