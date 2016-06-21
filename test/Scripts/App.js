@@ -44,31 +44,29 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var spEach = __webpack_require__(1);
-
+	/// <reference path='./typings/index.d.ts'/>
+	/// <reference path='../../../typings/index.d.ts'/>
+	"use strict";
+	var index_1 = __webpack_require__(1);
 	var getQueryStringParameter = function (param) {
-	    var params = document.URL.split("?")[1].split("&");
-	    var strParams = "";
-
+	    var params = document.URL.split('?')[1].split('&');
+	    var strParams = '';
 	    for (var i = 0; i < params.length; i = i + 1) {
-	        var singleParam = params[i].split("=");
-
-	        if (singleParam[0] == param) {
+	        var singleParam = params[i].split('=');
+	        if (singleParam[0] === param) {
 	            return decodeURIComponent(singleParam[1]);
 	        }
 	    }
 	};
-
 	var clientContext = SP.ClientContext.get_current();
 	var hostUrl = getQueryStringParameter('SPHostUrl');
 	var appContextSite = new SP.AppContextSite(clientContext, hostUrl);
 	var web = appContextSite.get_web();
 	var webs = web.get_webs();
-
 	clientContext.load(webs);
 	clientContext.executeQueryAsync(function (sender, args) {
-	    spEach(webs, function (current, index, collection) {
-	        $('#message').append('<li>Index ' + index + ': ' + current.get_title() + ' </li>');
+	    index_1.each(webs, function (web, index, webs) {
+	        $('#message').append('<li>Index ' + index + ': ' + web.get_title() + ' </li>');
 	    });
 	}, function (sender, args) {
 	    alert(args.get_message());
@@ -79,23 +77,21 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	var spEach = function (collection, iteratee, context) {
+	/// <reference path="./typings/index.d.ts"/>
+	"use strict";
+	function each(collection, iteratee, context) {
 	    if (typeof collection.getEnumerator === 'function') {
 	        var index = 0;
 	        var current = null;
 	        var enumerator = collection.getEnumerator();
-
 	        while (enumerator.moveNext()) {
 	            current = enumerator.get_current();
-
 	            iteratee.call(context, current, index, collection);
-
 	            index++;
 	        }
 	    }
-	};
-
-	module.exports = spEach;
+	}
+	exports.each = each;
 
 
 /***/ }
