@@ -1,6 +1,6 @@
 {
   "name": "sp-each",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Each function for SharePoint object collection.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/Frederick-S/sp-each/issues"
   },
-  "homepage": "https://github.com/Frederick-S/sp-each"
+  "homepage": "https://github.com/Frederick-S/sp-each",
+  "typings": "index.d.ts"
 }

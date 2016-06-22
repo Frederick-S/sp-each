@@ -1,4 +1,3 @@
-/// <reference path="typings/index.d.ts" />
 export interface IIteratee<T> {
     (element: T, index: number, collection: IEnumerable<T>): void;
 }
