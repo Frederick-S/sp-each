@@ -32,5 +32,14 @@ each<SP.Web>(webs, function (web: SP.Web, index: number, webs: SP.WebCollection)
 });
 ```
 
+## Test
+```
+cd sp-each/test/Scripts/src
+npm install
+webpack
+```
+
+Then open the project under test folder by Visual Studio and deploy the Add-in.
+
 ## License
 MIT.
