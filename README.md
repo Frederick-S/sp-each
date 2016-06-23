@@ -1,5 +1,5 @@
 # sp-each
-Iterates over SharePoint enumerable object.
+Iterates over enumerable SharePoint client object.
 
 ## Installation
 ```
