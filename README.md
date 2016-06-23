@@ -1,4 +1,4 @@
-# sp-each
+# sp-each [![Build Status](https://travis-ci.org/Frederick-S/sp-each.svg?branch=master)](https://travis-ci.org/Frederick-S/sp-each)
 Iterates over enumerable SharePoint client object.
 
 ## Installation
