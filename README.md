@@ -1,5 +1,5 @@
 # sp-each
-Each function for SharePoint object collection.
+Iterates over SharePoint enumerable object.
 
 ## Installation
 ```
