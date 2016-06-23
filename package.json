@@ -1,7 +1,7 @@
 {
   "name": "sp-each",
-  "version": "1.0.0",
-  "description": "Each function for SharePoint object collection.",
+  "version": "1.0.1",
+  "description": "Iterates over enumerable SharePoint client object.",
   "main": "index.js",
   "scripts": {
     "lint": "tslint index.ts"
