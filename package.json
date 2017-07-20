@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Frederick-S/sp-each",
   "typings": "index.d.ts",
   "devDependencies": {
-    "tslint": "^3.11.0",
-    "typescript": "^1.8.10"
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
   }
 }
