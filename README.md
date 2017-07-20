@@ -1,4 +1,6 @@
 # sp-each [![Build Status](https://travis-ci.org/Frederick-S/sp-each.svg?branch=master)](https://travis-ci.org/Frederick-S/sp-each)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Frederick-S/sp-each.svg)](https://greenkeeper.io/)
 Iterates over enumerable SharePoint client object.
 
 ## Installation
